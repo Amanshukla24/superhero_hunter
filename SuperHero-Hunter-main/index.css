@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+   /* background-image: radial-gradient(red, #0c0d46 50%, #1b00ff 100%);*/
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-image: url(back1.jpg);
+    background-size: cover;
+
+  }
+  
+  #container {
+    margin-top: 0;
+    height: 50rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  nav {
+    display: flex;
+    color: #c8b0b0;
+    justify-content: space-between;
+    background-color: rgb(20, 7, 40);
+    font-weight: bolder;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  nav div:hover {
+    font-size: 20px;
+    color: rgb(224, 20, 20);
+    border-radius: 5px;
+    text-shadow: yellow;
+    cursor: pointer;
+  }
+  
+  .nav_class {
+    margin-left: 1rem;
+    padding: 25px;
+    /* margin-right: 10px; */
+  }
+  
+  #sup_nav {
+    align-items: center;
+  }
+  
+  #search_box{
+    width: 40%;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    display: block;
+    padding: 1.5%;
+}
+
+  
+  .search-item {
+    display: flex;
+    justify-content: space-between;
+    border: red 50px;
+    font-family: -webkit-body;
+  }
+  
+  #btn {
+    height: 30px;
+    border-radius: 3px;
+    margin-left: 10px;
+  }
+  
+  .nav_class span a{
+    color: white;
+  }
+  nav span {
+    color: aliceblue;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* margin-left: 10px; */
+  }
+  
+  #searchResults {
+    margin: 0 auto;
+    margin-top: 22rem;
+    width: 35%;
+    background-color: #e2e8f0;
+    opacity: 0.8;
+    
+  }
+  
+  #searchResults div {
+    padding: 5px;
+    color: black;
+    font-size: large;
+    justify-content: space-around;
+  }
+  
+  #searchResults div:hover {
+    color: green;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
